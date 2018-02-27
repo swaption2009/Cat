@@ -103,7 +103,7 @@ Breed & Tag Stats
 
 * `GET /tags/stats` retrieves statistics about all tags
 
-  ![](readme/fig13.png)  
+  ![](readme/fig13.png)
 
 ```
 Others
@@ -123,6 +123,10 @@ Others
     @breed = Breed.includes(:tags).find(params[:id])
   end
   ```
+
+* If you've written tests, we can see that all of the tests pass.
+
+  ![](readme/fig15.png)  
 
 ## Future Improvements
 
